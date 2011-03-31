@@ -76,6 +76,7 @@ function Ajax(api)
 
 				// Set the content
 				api.set('content.text', content);
+				api.redraw();
 
 				after(); // Call common callback
 			}
